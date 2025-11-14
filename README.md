@@ -40,23 +40,26 @@ Each analysis stage is a separate function:
 ## 📁 Repository Structure
 
 SPM-fMRI-BIDS-Compatible-Scripts/
-│
-├── master_pipeline.m # Main controller script
-│
-├── functions/ # All pipeline modules
-│ ├── extract_onset_duration.m
-│ ├── check_and_unzip_data.m
-│ ├── fMRI_Preprocessing.m
-│ ├── qc_preview_subjects.m
-│ ├── fMRI_first_level.m
-│ ├── Second_level_analysis_exploratory.m
-│ ├── Second_level_analysis_ROI_based.m
-│ └── utils/ # Helper functions (optional)
-│
-├── mask/ # ROI masks (example)
-│ └── parahippocamp_sphere.nii
-│
-├── second_level/ # Example SPM.mat outputs
-│
-├── README.md
-└── LICENSE
+|
+|-- master_pipeline.m
+|
+|-- functions/
+|   |-- extract_onset_duration.m
+|   |-- check_and_unzip_data.m
+|   |-- fMRI_Preprocessing.m
+|   |-- qc_preview_subjects.m
+|   |-- fMRI_first_level.m
+|   |-- Second_level_analysis_exploratory.m
+|   |-- Second_level_analysis_ROI_based.m
+|   |
+|   |-- utils/      (optional helper functions)
+|
+|-- mask/
+|   |-- parahippocamp_sphere.nii
+|
+|-- second_level/
+|   |-- (example SPM.mat output folders)
+|
+|-- README.md
+|-- LICENSE
+
