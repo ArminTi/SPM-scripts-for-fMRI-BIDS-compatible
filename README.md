@@ -7,7 +7,7 @@ BIDS Compatible fMRI Processing Pipeline Using SPM12
 ---
 ## 📌 Overview
 
-This repository provides a **clean, BIDS-compatible workflow** for preprocessing and analyzing **task-based fMRI data** using **SPM12**.  
+This repository provides a **BIDS-compatible workflow** for preprocessing and analyzing **task-based fMRI data** using **SPM12**.  
 It is designed for researchers, students, and labs who want to:
 
 - Automate SPM preprocessing
